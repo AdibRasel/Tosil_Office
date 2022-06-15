@@ -5,8 +5,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Tosil Office</title>
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- end bootstrap css  -->
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="device.css">
 </head>
 <body>
-    <h1>Hi</h1>
+    <div class="top_header">
+        <div class="top_right">
+            <!-- Time and Date Bangla  -->
+            <script language = "JavaScript"> var now = new Date();
+                var dayNames =
+                new Array("রবিবার","সোমবার","মঙ্গলবার","বুধবার","বৃহস্পতিবার","শুক্রবার","শনিবার");
+                var monNames = new Array("জানুয়ারি","ফেব্রুয়ারী","মার্চ","এপ্রিল","মে","জুন","জুলাই","আগস্ট","সেপ্টেম্বর","অক্টোবর","নভেম্বর","ডিসেম্বর");
+                
+                document.write("আজ " + dayNames[now.getDay()] + " " + monNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear()); </script> | <script>
+                atoj = new Date();
+                atoj1= atoj.getHours();
+                atoj2 = atoj.getMinutes();
+                atoj3= atoj.getSeconds();
+                
+                if(atoj1==0){atoj4=" AM";atoj1=12}
+                else if(atoj1 <= 11){atoj4=" AM"} else if(atoj1 == 12){atoj4=" PM";atoj1=12} else if(atoj1 >= 13){atoj4=" PM";atoj1-=12}
+                
+                if(atoj2 <= 9){atoj2="0"+atoj2} document.write(""+atoj1+":"+atoj2+":"+atoj3+""+atoj4+""+"");
+            </script>
+            <!-- end Time and Date  -->
+        </div>
+        <div class="top_left">
+            সাহাপুর ইউনিয়ন ভূমি অফিস । সাহাপুর, চাটখিল, নোয়াখালী।
+        </div>
+    </div>
+
+
+    <!-- header 2 -->
+    <div class="header_2">
+        <div class="header_2_left">
+            <img src="bangladesh-govt-logo.png" class="img-fluid" alt="">
+            <h1>সাহাপুর ইউনিয়ন ভূমি অফিস</h1><span>সাহাপুর, চাটখিল, নোয়াখালী।</span>
+        </div>
+        <div class="header_2_right">
+            <img src="land.logo.png" class="img-fluid" alt="">
+        </div>
+    </div>
+    <!-- header 2 -->
+
+    <!-- menu  -->
+    <div class="menu">
+
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nothi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    দলিল
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+
+
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+            </div>
+
+
+
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+
+          </nav>
+
+    </div>
+    <!-- end menu  -->
+
+
+
+    <section style="color:black">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vitae dolorem iusto, distinctio alias autem, eaque illum quasi minima ipsam dolor harum ratione facilis, temporibus itaque recusandae qui id ad rerum tempora! Suscipit corporis at minus soluta eaque perspiciatis saepe iusto, rem ipsa quod similique sequi facere sunt veniam architecto id consectetur facilis harum dolorem dignissimos? Veritatis delectus nesciunt quia excepturi minus error quas id consectetur voluptatum et, incidunt mollitia quisquam magnam velit eaque, eligendi quo harum. Quaerat impedit quasi illo, fugiat quia reprehenderit officia sit, saepe, quae ab quis placeat dolorem inventore quo cum ex quos. Voluptates ab eum minima ipsa obcaecati modi, cupiditate nisi inventore nesciunt provident aspernatur alias iusto laudantium architecto excepturi ex voluptatum adipisci impedit ducimus animi dolore dolores. Dolorem quidem, nobis quos fugit sunt esse, molestiae neque suscipit ipsa reiciendis maxime. Exercitationem, est facere cupiditate quaerat eveniet totam illo maxime sequi qui aut saepe dolores rem repellat ut! Reiciendis nihil odit impedit magni repellendus aspernatur eum nesciunt praesentium, unde odio fugiat molestiae quisquam eaque minima sapiente doloribus quasi inventore voluptas rem. Aperiam, maxime aliquid porro recusandae eum itaque a explicabo. Maxime quasi totam sapiente numquam dolor modi nisi? Rerum, cum! Ducimus repellat amet laborum delectus? Dicta, non veritatis enim vitae eligendi eius maxime quia optio, quam corporis fugiat. Nobis voluptatibus est repellendus repudiandae amet suscipit, tempora voluptas rem itaque maxime, optio magni magnam in ut similique impedit praesentium expedita odio nostrum laboriosam quo assumenda. Voluptatem, corporis facilis vel, quibusdam ducimus molestiae quisquam non vitae error accusamus architecto accusantium itaque cupiditate quidem ad ullam quae? Eos quisquam mollitia, reprehenderit omnis sit autem minus repellendus rem libero similique quasi, excepturi voluptate aliquid, aut optio dolorem aliquam culpa earum itaque possimus. Sequi commodi omnis perspiciatis necessitatibus quas repellat dolorem aliquid natus! Maxime placeat debitis sunt esse, quibusdam ipsam vel recusandae. Vitae dolores temporibus inventore sit corrupti nisi voluptate provident dolorum illo dolorem sequi, natus sed, nemo nostrum totam, ex fugit? Aliquam inventore ipsum dignissimos eius consectetur similique dicta, perferendis facilis sunt in doloribus recusandae sed dolor excepturi quod, rerum quis libero animi beatae totam nesciunt non deleniti voluptatum labore? Est doloremque numquam libero optio cum, quae hic culpa amet inventore ea. Asperiores laborum, fugiat reprehenderit odit id accusantium ad eum fuga, tempora pariatur animi officiis vel illo commodi labore in repellat incidunt nemo consequatur mollitia. Fugit deserunt saepe reiciendis voluptatem ea delectus nostrum in, possimus odit commodi optio! Placeat laborum veniam adipisci earum. At numquam dolorum aspernatur quas sed quisquam, fuga exercitationem in. Quae totam laborum cum molestias sapiente id perferendis. Explicabo expedita neque rerum fuga corporis cumque rem voluptate saepe magnam corrupti exercitationem vel laudantium earum a, voluptatibus laborum obcaecati ullam ipsam sit molestiae consequatur libero. Quos, iste dolores rem a blanditiis sint accusamus quasi possimus natus nostrum ut, dolorum nulla fuga harum. Corporis tempore illum fugit reiciendis dolores beatae quia nostrum repellat quibusdam numquam placeat molestiae odio, neque cum? Officia ipsum ea atque alias? Voluptas corrupti vero nam maiores unde ad et facere debitis aliquid totam.
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- javascript -->
+    <script src="index.js"></script>
+    <!-- end javascript -->
+
+    <!-- bootstrap javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- end bootstrap javascript  -->
 </body>
 </html>
