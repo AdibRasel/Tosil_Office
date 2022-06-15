@@ -75,6 +75,10 @@ body{
 
 
 /* menu  */
+.menu{
+    /* position: fixed; */
+}
+
 
 .menu nav{
     background-color: #099f19;
@@ -94,7 +98,41 @@ body{
     color:white
 }
 
-
 .dropdown-menu{
     background-color: #099f19;
 }
+
+/* end menu  */
+
+/* home image  */
+.row{
+    width: 95%;
+    margin: auto;
+}
+.card{
+    background: #ffffffb5;
+}
+.col-sm{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-img-top{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    border-radius: 50px;
+}
+.card-body{
+    text-align: center;
+}
+/* end home image  */
+
+
+/* top button  */
+.back_to_top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    /* display: none; */
+}
+/* end top button  */
+
