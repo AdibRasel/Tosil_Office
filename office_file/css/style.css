@@ -1,3 +1,7 @@
+.alert{
+    background-color: #b8c73c;
+}
 .alert a{
     text-decoration: none;
+    color:#212529;
 }
