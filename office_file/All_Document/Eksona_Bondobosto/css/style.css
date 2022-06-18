@@ -33,7 +33,7 @@
     padding-left: 50px;
 }
 .abedonkari{
-    margin-top: 15px;
+    /* margin-top: 15px; */
     display: inline-block;
 }
 .name_box{
@@ -41,6 +41,15 @@
 }
 .pera_1{
     padding-left: 50px;
+    text-align: justify;
+}
+.pera_2{
+    /* display: inline-block; */
+    text-align: justify;
+}
+.pera_3{
+    text-align: center;
+    font-weight: bold;
 }
 
 
