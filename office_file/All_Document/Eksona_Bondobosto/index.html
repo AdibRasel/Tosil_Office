@@ -72,13 +72,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="../../../index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">অফিস ফাইল</a>
+                  <a class="nav-link" href="../../index.html">অফিস ফাইল</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="uttoradikar/index.html">উত্তরাধীকার</a>
+                  <a class="nav-link" href="../../../uttoradikar/index.html">উত্তরাধীকার</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contact</a>
@@ -119,15 +119,15 @@
     <div class="main_section mt-3">
       <h1 class="text-center">একসনা বন্দোবস্তের নথীর আবেদন ফর্ম</h1>
 
-
-      <form action="" class="p-3">
+      <!-- abedon form  -->
+      <form action="" class="p-3 abedon_form">
         <h2><u><b>আবেদনকারী</b></u></h2>
 
         <!-- নাম -->
         <div class="row">
           <div class="form-group col-md">
             <label for="">নামঃ-</label>
-            <input type="text" name="name" id="name" class="form-control" placeholder="নাম" aria-describedby="helpId">
+            <input type="text"  id="abedonkari_name" class="form-control" placeholder="নাম" >
             <small id="helpId" class="text-muted">সম্পূর্ণ নাম নির্ভুল ভাবে দিন।</small>
           </div>
         </div>
@@ -136,77 +136,106 @@
         <div class="row">
           <div class="form-group col-md-6">
             <label for="">পিতার নামঃ-</label>
-            <input type="text" name="father" id="father" class="form-control" placeholder="পিতা" aria-describedby="helpId">
+            <input type="text" name="father" id="father" class="form-control" placeholder="পিতা">
             <small id="helpId" class="text-muted">সম্পূর্ণ পিতার নাম নির্ভুল ভাবে দিন।</small>
           </div>
           <div class="form-group col-md-6">
             <label for="">মাতার নামঃ-</label>
-            <input type="text" name="mother" id="mother" class="form-control" placeholder="মাতা" aria-describedby="helpId">
+            <input type="text" name="mother" id="mother" class="form-control" placeholder="মাতা">
             <small id="helpId" class="text-muted">সম্পূর্ণ মাতার নাম নির্ভুল ভাবে দিন।</small>
           </div>
-      </div>
+        </div>
 
-      <!-- গ্রাম পোস্ট অফিস গ্রুপ -->
+        <!-- মোবাইল নাম্বার -->
+        <div class="row">
+          <div class="form-group col-md">
+            <label for="">মোবাইল নাম্বারঃ-</label>
+            <input type="text" name="number" id="mobile_number" class="form-control" placeholder="মোবাইল নাম্বার">
+            <small id="helpId" class="text-muted">সম্পূর্ণ মোবাইল নাম্বার নির্ভুল ভাবে দিন।</small>
+          </div>
+        </div>
+
+         <!-- গ্রাম পোস্ট অফিস গ্রুপ -->
         <div class="row">
           <div class="form-group col-md-6">
             <label for="">গ্রামঃ-</label>
-            <input type="text" name="gram" id="gram" class="form-control" placeholder="গ্রাম" aria-describedby="helpId">
+            <input type="text" name="gram" id="gram" class="form-control" placeholder="গ্রাম">
             <small id="helpId" class="text-muted">সম্পূর্ণ গ্রামের নাম নির্ভুল ভাবে দিন।</small>
           </div>
           <div class="form-group col-md-6">
             <label for="">পোস্ট অফিসঃ-</label>
-            <input type="text" name="name" id="mother" class="form-control" placeholder="পোস্ট অফিস" aria-describedby="helpId">
+            <input type="text" name="name" id="post_office" class="form-control" placeholder="পোস্ট অফিস">
             <small id="helpId" class="text-muted">সম্পূর্ণ পোস্ট অফিস নির্ভুল ভাবে দিন।</small>
           </div>
-      </div>
+        </div>
 
-      <!-- থানা-জেলা গ্রুপ -->
+        <!-- থানা-জেলা গ্রুপ -->
         <div class="row">
           <div class="form-group col-md-6">
             <label for="">থানাঃ-</label>
-            <input type="text" name="thana" id="thana" class="form-control" placeholder="থানা" aria-describedby="helpId">
+            <input type="text" name="thana" id="thana" class="form-control" placeholder="থানা">
             <small id="helpId" class="text-muted">সম্পূর্ণ থানার নাম নির্ভুল ভাবে দিন।</small>
           </div>
           <div class="form-group col-md-6">
             <label for="">জেলাঃ-</label>
-            <input type="text" name="jela" id="jela" class="form-control" placeholder="জেলা" aria-describedby="helpId">
+            <input type="text" name="jela" id="jela" class="form-control" placeholder="জেলা">
             <small id="helpId" class="text-muted">সম্পূর্ণ জেলার নাম নির্ভুল ভাবে দিন।</small>
           </div>
-      </div>
+        </div>
 
         <!-- মৌজার নামঃ -->
         <div class="row">
           <div class="form-group col-md">
             <label for="">মৌজার নামঃ-</label>
-            <input type="text" name="moja" id="moja" class="form-control" placeholder="মৌজার নামঃ" aria-describedby="helpId">
+            <input type="text" name="moja" id="moja" class="form-control" placeholder="মৌজার নামঃ">
             <small id="helpId" class="text-muted">সম্পূর্ণ মৌজার নামঃ নির্ভুল ভাবে দিন।</small>
           </div>    
         </div>
         
-      <!-- দাগ জমির পরিমান গ্রুপ -->
-      <div class="row">
-        <div class="form-group col-md-6">
-          <label for="">দাগঃ-</label>
-          <input type="number" name="dag" id="dag" class="form-control" placeholder="দাগ" aria-describedby="helpId">
-          <small id="helpId" class="text-muted">সম্পূর্ণ দাগের নাম নির্ভুল ভাবে দিন।</small>
+        <!-- দাগ জমির পরিমান গ্রুপ -->
+        <div class="row">
+          <div class="form-group col-md-6">
+            <label for="">দাগঃ-</label>
+            <input type="text" name="dag" id="dag" class="form-control" placeholder="দাগ">
+            <small id="helpId" class="text-muted">সম্পূর্ণ দাগের নাম নির্ভুল ভাবে দিন।</small>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="">জমির পরিমাণ</label>
+            <input type="text" name="jomir_poriman" id="jomir_poriman" class="form-control" placeholder="জমির পরিমাণ">
+            <small id="helpId" class="text-muted">সম্পূর্ণ জমির পরিমাণ নির্ভুল ভাবে দিন।</small>
+          </div>
+          <!-- <button class="btn btn-primary submit_btn" onclick="submit1()" id="submit" type="submit">Submit form</button> -->
         </div>
-        <div class="form-group col-md-6">
-          <label for="">জমির পরিমাণ</label>
-          <input type="number" name="jomir_poriman" id="jomir_poriman" class="form-control" placeholder="জমির পরিমাণ" aria-describedby="helpId">
-          <small id="helpId" class="text-muted">সম্পূর্ণ জমির পরিমাণ নির্ভুল ভাবে দিন।</small>
-        </div>
-    </div>
-
-    <button class="btn btn-primary" type="submit">Submit form</button>
-
       
   
-  
-  
-  </div>
+
 
 
       </form>
+      <!-- <button onclick="submit()">hello</button> -->
+      <button class="btn btn-primary submit_btn" onclick="submit1()" id="submit" type="submit">Submit form</button>
+
+
+      <!-- end abedon form  -->
+
+      <!-- print box  -->
+      <div class="print_box" id="printContent">
+        <span class="borabor">বরাবর,</span><br>
+        <span class="comitionar"> সহকারী কমিশনার (ভূমি)<br></span>
+        <span class="comitionar"> চাটখিল, নোয়াখালী।</span><br>
+        <span class="sutro Top_Bottom"> সূত্রঃ </span> <br>
+        <span class="abedonkari ">আবেদনকারীঃ</span><br>
+                    <span class="name_box ">নামঃ <span class="Bold" id="abedonkarir_name"></span> <br></span>
+                    <span class="name_box ">পিতাঃ <span class="Bold" id="abedonkarir_father"></span><br></span>
+                    <span class="name_box ">মাতাঃ <span class="Bold" id="abedonkarir_mother"></span><br></span>
+                    <span class="name_box ">সাং- <span class="Bold" id="abedonkarir_sang"></span><br></span>
+                    <span class="name_box ">মোবাইল নং <span class="Bold" id="abedonkarir_number"></span><br></span>
+          <span class="sub Top_Bottom Bold">বিষয়ঃ একসনা বন্দোবস্তের নথীর আবেদন প্রসঙ্গে।</span><br>
+          <span class="mohatton">মহাত্নন,</span><br>
+                                       <span class="pera_1">
+                                      আমি অত্র ইউনিয়ন এর একজন স্থায়ী বাসিন্দা।
+                                      </span>
+        
 
 
 
@@ -215,13 +244,18 @@
 
 
 
+      </div>
+      <!-- end print box  -->
 
 
-      <!-- <div class="print_page">
-        <button id="mybutton" onclick="window.print()">Print</button>
-      </div> -->
+
+
+      <div class="print_page">
+        <button id="mybutton" onclick="printa()">Print</button>
+      </div>
 
     </div>
+    <!-- end main section  -->
 
 
 

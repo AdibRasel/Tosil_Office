@@ -1,3 +1,47 @@
 .main_section{
-    
+
 }
+.submit_btn{
+    width: 100%;
+    margin-top:20px;
+    background-color: #099f19;
+}
+.abedon_form{
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px #555;
+}
+/* print box  */
+.print_box{
+    width: 8.27in;
+    height: 11.69in;
+    margin: auto;
+    /* background-color: rgb(117, 117, 117); */
+    margin-top:20px;
+    padding:1in;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px #555;
+
+}
+
+.borabor{
+
+}
+.comitionar{
+    padding-left: 50px;
+}
+.name_box{
+    margin-left: 100px;
+}
+.pera_1{
+    padding-left: 50px;
+}
+/* coustom  */
+.Top_Bottom{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.Bold{
+    font-weight: bold;
+}
+/* end coustom  */
