@@ -9,6 +9,7 @@
 .abedon_form{
     box-sizing: border-box;
     box-shadow: 0px 1px 1px #555;
+
 }
 /* print box  */
 .print_box{
@@ -17,17 +18,23 @@
     margin: auto;
     /* background-color: rgb(117, 117, 117); */
     margin-top:20px;
+    /* print box top left paddint  */
     padding:1in;
+    padding-top:0.8in;
     font-size: 18px;
     box-shadow: 0px 1px 5px #555;
 
 }
 
 .borabor{
-
-}
+   
+} 
 .comitionar{
     padding-left: 50px;
+}
+.abedonkari{
+    margin-top: 15px;
+    display: inline-block;
 }
 .name_box{
     margin-left: 100px;
@@ -35,6 +42,17 @@
 .pera_1{
     padding-left: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
 /* coustom  */
 .Top_Bottom{
     padding-top: 15px;
@@ -45,3 +63,53 @@
     font-weight: bold;
 }
 /* end coustom  */
+
+
+/* pritn css */
+@media print {
+    .print_box{
+        box-shadow: 0px 0px 0px white;
+    }
+    body{
+        box-shadow: 0px 0px 0px white;
+    }
+    /* @page :footer {
+        display: none
+    }
+ 
+    @page :header {
+        display: none
+    } */
+  }
+
+
+  @page {
+	size: auto;
+	margin: 0;
+}
+/* print css end  */
+
+
+/* print button css  */
+
+.print_page{
+    width: 8.27in;
+    /* width: auto; */
+    margin: auto;
+    /* margin-top: 5px; */
+}
+.print{
+    width: 8.27in;
+    /* width: auto; */
+    /* color:red; */
+    box-shadow: 0px 1px 5px #555;
+}
+.print:hover{
+    font-weight: bold;
+}
+/* end print button  */
+@media screen and (max-width: 600px) {
+    .print_page, .print {
+        width: auto;
+    }
+  }

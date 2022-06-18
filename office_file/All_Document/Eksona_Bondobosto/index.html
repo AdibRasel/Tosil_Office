@@ -217,14 +217,14 @@
 
 
       <!-- end abedon form  -->
-
+<section id="printMe">
       <!-- print box  -->
-      <div class="print_box" id="printContent">
-        <span class="borabor">বরাবর,</span><br>
-        <span class="comitionar"> সহকারী কমিশনার (ভূমি)<br></span>
+      <div class="print_box">
+        <span class="borabor">মাননীয়,</span><br>
+        <span class="comitionar">সহকারী কমমশনার (ভূমম)<br></span>
         <span class="comitionar"> চাটখিল, নোয়াখালী।</span><br>
-        <span class="sutro Top_Bottom"> সূত্রঃ </span> <br>
-        <span class="abedonkari ">আবেদনকারীঃ</span><br>
+        <!-- <span class="sutro Top_Bottom"></span> <br> -->
+        <span class="abedonkari">আবেদনকারীঃ</span><br>
                     <span class="name_box ">নামঃ <span class="Bold" id="abedonkarir_name"></span> <br></span>
                     <span class="name_box ">পিতাঃ <span class="Bold" id="abedonkarir_father"></span><br></span>
                     <span class="name_box ">মাতাঃ <span class="Bold" id="abedonkarir_mother"></span><br></span>
@@ -246,12 +246,12 @@
 
       </div>
       <!-- end print box  -->
-
+</section>
 
 
 
       <div class="print_page">
-        <button id="mybutton" onclick="printa()">Print</button>
+        <button class="print btn btn-lg btn-success"  onclick="printDiv('printMe')">Print</button>
       </div>
 
     </div>
