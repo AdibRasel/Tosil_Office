@@ -25,17 +25,17 @@ function submit1(){
     document.getElementById("abedonkarir_sang").innerHTML = gram + ", " + post_office + ", " + thana + ", " + jela + "।";
     document.getElementById("abedonkarir_number").innerHTML = mobile_number ;
     document.getElementById("abedonkarir_moja").innerHTML = moja;
-    document.getElementById("abedonkarir_moja_2").innerHTML = moja;
+    document.getElementById("abedonkarir_moja_3").innerHTML = moja;
     // document.getElementById("abedonkarir_moja_3").innerHTML = moja;
     document.getElementById("abedonkarir_jela_2").innerHTML = jela;
     document.getElementById("abedonkarir_upojela_2").innerHTML = thana;
     document.getElementById("abedonkarir_dag").innerHTML = dag;
     document.getElementById("abedonkarir_jomirporiman").innerHTML = jomir_poriman;
-    document.getElementById("abedonkarir_prokasso_moja_1").innerHTML = prokashsso_moja;
+    document.getElementById("prokasso_moja").innerHTML = prokashsso_moja;
     document.getElementById("abedonkarir_prokasso_moja_2").innerHTML = prokashsso_moja;
 
 
-
+console.log("hello")
 
 }
 // end submit button 
