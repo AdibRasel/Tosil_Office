@@ -1,0 +1,28 @@
+.main_section{
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+table, td, th {
+    border: 1px solid black;
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, tr {
+    text-align: center;
+  }
+  td input{
+    width: 100%;
+    height: 100%;
+    /* color:red */
+  }
+
+
+  .show_result table tr td{
+    padding:10px
+  }
